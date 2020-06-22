@@ -38,7 +38,7 @@ namespace Bathur.CopyrightHelper.Editor
         [SettingsProvider]
         public static SettingsProvider CopyrightHelperEditorSettingsProvider()
         {
-            SettingsProvider Provider = new SettingsProvider("Bathur/Copyright Helper", SettingsScope.Project, , new string[] { "Copyright", "Helper", "Bathur" })
+            SettingsProvider Provider = new SettingsProvider("Bathur/Copyright Helper", SettingsScope.Project, new string[] { "Copyright", "Helper", "Bathur" })
             {
                 label = "Copyright Helper",
                 activateHandler = (SearchContext, RootElement) =>
