@@ -1,0 +1,21 @@
+{
+  "name": "cn.bathur.copyrighthelper",
+  "version": "1.0.0",
+  "displayName": "Copyright Helper",
+  "description": "Copyright Helper By Bathur",
+  "unity": "2019.4",
+  "keywords": [
+    "Bathur",
+    "Copyright",
+    "Helper"
+  ],
+  "author": {
+    "name": "Bathur",
+    "email": "bathur@163.com",
+    "url": "https://bathur.cn"
+  },
+  "license":"MIT",
+  "type": "library",
+  "dependencies": {
+  }
+}
