@@ -5,7 +5,7 @@ Add customizable copyright information when creating a new script in Unity.
   1. Open UnityPackageManager(UPM)
   2. Click "+"(In the upper left corner of the window)
   3. Click "Add package from git URL"
-  4. Input `https://github.com/Bathur/UnityCopyrightHelper`
+  4. Input `https://github.com/Bathur/UnityCopyrightHelper.git`
   5. Clcik "Add"
 - Download ZIP
   1. Download ZIP
