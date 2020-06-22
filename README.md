@@ -18,7 +18,7 @@ Add customizable copyright information when creating a new script in Unity.
   - `#SCRIPTNAME#` **CANNOT** be customized, it will always be replaced with the file name of the new script
   - `#CREATETIME#`'s custom content should be a date format string, it will always be replaced with the time when the new script was created
 # Requirements
-- Unity 2019.4 or later
+- Unity 2018.3 or later
 # Author Info
 Blog: http://bathur.cn/
 # License
