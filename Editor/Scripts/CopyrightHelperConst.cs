@@ -41,7 +41,8 @@ namespace Bathur.CopyrightHelper.Editor
                         "// - Created:       #AUTORNAME#" + Environment.NewLine +
                         "// - Time:          #CREATETIME#" + Environment.NewLine +
                         "// - Email:         #AUTHOREMAIL#" + Environment.NewLine +
-                        "// - Description:   " + Environment.NewLine + Environment.NewLine +
+                        "// - Description:   " + Environment.NewLine + 
+                        "//" + Environment.NewLine +
                         "// - (C) Copyright #STARTYEAR# - #CURRENTYEAR#, #COPYRIGHTOWNER#" + Environment.NewLine +
                         "// - All Rights Reserved." + Environment.NewLine +
                         "//======================================================";

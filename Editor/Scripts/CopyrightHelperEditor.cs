@@ -56,10 +56,10 @@ namespace Bathur.CopyrightHelper.Editor
 
                         EditorGUILayout.Space();
 
-                        if (EditorGUILayout.Toggle("Enable Copyright Helper? ", HelperConfig.EnableHelper))
-                        {
-                            HelperConfig.EnableHelper = true;
+                        HelperConfig.EnableHelper = EditorGUILayout.Toggle("Enable Copyright Helper? ", HelperConfig.EnableHelper);
 
+                        if (HelperConfig.EnableHelper)
+                        {
                             EditorGUILayout.Space();
 
                             EditorGUILayout.HelpBox("NOTE:\nPlease wrap letters, numbers or underscores with two pound signs(#)", MessageType.Info);
@@ -100,10 +100,6 @@ namespace Bathur.CopyrightHelper.Editor
                                     HelperConfig.ReplacementList[i] = Item;
                                 }
                             }
-                        }
-                        else
-                        {
-                            HelperConfig.EnableHelper = false;
                         }
 
                         EditorGUILayout.EndVertical();
