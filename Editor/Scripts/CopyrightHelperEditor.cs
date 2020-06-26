@@ -123,7 +123,10 @@ namespace Bathur.CopyrightHelper.Editor
                 },
                 deactivateHandler = () =>
                 {
-
+                    if (HelperConfig != null)
+                    {
+                        EditorUtility.SetDirty(HelperConfig);
+                    }
                 }
             };
 
